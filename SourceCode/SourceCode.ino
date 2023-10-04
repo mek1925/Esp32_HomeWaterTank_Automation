@@ -11,8 +11,12 @@ int incomingByte;
 
 String FirmwareVer = {"1.0"};
 
+// #define URL_fw_Version "https://raw.githubusercontent.com/AhmadMahi/QuibbleUpdate/master/Quibbleupdate/bin-version.txt"
+// #define URL_fw_Bin "https://raw.githubusercontent.com/AhmadMahi/QuibbleUpdate/master/Quibbleupdate/fw.bin"
 #define URL_fw_Version "https://raw.githubusercontent.com/AhmadMahi/QuibbleUpdate/master/Quibbleupdate/bin-version.txt"
-#define URL_fw_Bin "https://raw.githubusercontent.com/AhmadMahi/QuibbleUpdate/master/Quibbleupdate/fw.bin"
+#define URL_fw_Bin "https://raw.githubusercontent.com/mek1925/Esp32_HomeWaterTank_Automation/main/Firmware_update/SourceCode.ino.bin"
+
+
 
 void setup()
 {
